@@ -1280,7 +1280,7 @@ h6, .ui-txt-tips {
 .ui-tag-new:after,
 .ui-tag-s-new:after,
 .ui-tag-pop-new:after {
-  content: '\u65b0'; }
+  content: 'new'; }
 
 .ui-tag-hot:before,
 .ui-tag-s-hot:before,

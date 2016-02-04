@@ -4,3 +4,39 @@
 .ui-pull-right{
     float: right;
 }
+.tui-nav{
+    color: #898989;
+    padding: 5px 10px;
+}
+.tui-nav  .iconfont{
+  font-size: 32px;
+}
+.tui-nav .icon-zhanghuguanli{
+    color: #8796D9;
+}
+.tui-nav .icon-cainixihuan{
+    color: #FE7064;
+}
+.tui-nav .icon-jiaoyijilu{
+    color: #FFAC2F;
+}
+.tui-nav .icon-goumaitaocan{
+    color: #1BBB71;
+}
+.tui-cover{
+    margin: 5px 0;
+}
+.tui-cover img{
+    width: 100%;
+}
+.tui-product-list{
+    padding: 5px 10px;
+}
+.tui-product-list .ui-list li{
+    margin: 5px 0;
+
+}
+.tui-product-list h2{
+    color: #000000;
+    font-weight: 700;
+}

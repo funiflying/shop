@@ -6,6 +6,7 @@
     <meta name="format-detection" content="telephone=no">
     <title></title>
     <link rel="stylesheet" href="css/frozen.css"/>
+    <link rel="stylesheet" href="css/iconfont.css"/>
     <link rel="stylesheet" href="css/xiaozou.css"/>
     <script src="js/zepto.min.js"></script>
     <script src="js/frozen.js"></script>
@@ -16,7 +17,7 @@
     <a href=""><i class="ui-icon-personal ui-pull-right"></i></a>
 </header>
 <section class="ui-container">
-<section id="slider">
+    <section id="slider">
 
     <div class="ui-slider">
         <ul class="ui-slider-content" style="width: 300%">
@@ -26,25 +27,85 @@
         </ul>
     </div>
 
-<script class="demo-script">
-    (function (){
-        var slider = new fz.Scroll('.ui-slider', {
-            role: 'slider',
-            indicator: true,
-            autoplay: true,
-            interval: 3000
-        });
+    <script class="demo-script">
+        (function (){
+            var slider = new fz.Scroll('.ui-slider', {
+                role: 'slider',
+                indicator: true,
+                autoplay: true,
+                interval: 3000
+            });
 
-        slider.on('beforeScrollStart', function(fromIndex, toIndex) {
-            console.log(fromIndex,toIndex)
-        });
+            slider.on('beforeScrollStart', function(fromIndex, toIndex) {
+                console.log(fromIndex,toIndex)
+            });
 
-        slider.on('scrollEnd', function(cruPage) {
-            console.log(cruPage)
-        });
-    })();
-</script>
-</section>
+            slider.on('scrollEnd', function(cruPage) {
+                console.log(cruPage)
+            });
+        })();
+    </script>
+    </section>
+    <section class="tui-nav">
+     <ul class="ui-tiled">
+         <li><i class="iconfont icon-zhanghuguanli"></i><div>全部商品</div></li>
+         <li><i class="iconfont icon-cainixihuan"></i><div>猜您喜欢</div></li>
+         <li><i class="iconfont icon-jiaoyijilu"></i><div>订单查询</div></li>
+         <li><i class="iconfont icon-goumaitaocan"></i><div>购物车</div></li>
+     </ul>
+ </section>
+    <section class="ui-whitespace tui-cover">
+        <img src="http://7xqpxe.com1.z0.glb.clouddn.com/2c2fd49572c972f2236843c1fce8b545.jpg" alt=""/>
+    </section>
+    <section class="tui-product-list">
+        <ul class="ui-list">
+            <li>
+                <div class="ui-list-img ui-tag-act">
+                    <span style="background-image:url(http://7xqpxe.com1.z0.glb.clouddn.com/u=551349599,1064502579&fm=21&gp=0.jpg)"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h2 class="ui-nowrap">欢聚时刻甜蜜不断</h2>
+                    <p class="ui-nowrap ui-txt-sub">甜心樱桃</p>
+                    <p><strong>248</strong>元/斤</p>
+                </div>
+            </li>
+            <li>
+                <div class="ui-list-img ui-tag-pop-new">
+                    <span style="background-image:url(http://7xqpxe.com1.z0.glb.clouddn.com/u=859286914,1200703436&fm=21&gp=0.jpg)" class=""></span>
+                </div>
+                <div class="ui-list-info">
+                    <h2>新年新气象，平安是福</h2>
+                </div>
+            </li>
+            <li>
+                <div class="ui-list-img ui-tag-limit">
+                    <span style="background-image:url(http://7xqpxe.com1.z0.glb.clouddn.com/u=1412440170,3648504267&fm=21&gp=0.jpg)"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h2>桃子夭夭，灼灼其华</h2>
+                </div>
+            </li>
+            <li>
+                <div class="ui-list-img">
+                    <span style="background-image:url(http://7xqpxe.com1.z0.glb.clouddn.com/d833c895d143ad4b3e5b8b6187025aafa40f061e.jpg)"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h2>新年必备礼品</h2>
+                </div>
+            </li>
+            <li>
+                <div class="ui-list-img ">
+                    <span style="background-image:url(http://7xqpxe.com1.z0.glb.clouddn.com/4bed2e738bd4b31cfc48319f80d6277f9e2ff89a.jpg)"></span>
+                </div>
+                <div class="ui-list-info">
+                    <h2>多姿多彩，诚意十足</h2>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    
+    
 </section>
 
 
