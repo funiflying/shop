@@ -1,0 +1,28 @@
+{
+  "name": "CTXApp",
+  "authors": [
+    "funiflying <funiflying@163.com>"
+  ],
+  "description": "chetongxiang",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "angularjs#~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-touch": "~1.4.8",
+    "angular-resource": "~1.4.8",
+    "zeptojs": "~1.1.6"
+  }
+}
